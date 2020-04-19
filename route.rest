@@ -1,0 +1,15 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/5e9c6c38e3209e0c697f937e
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Rory Price",
+    "subscribedToChannel": "Web Dev Simplified"
+}
